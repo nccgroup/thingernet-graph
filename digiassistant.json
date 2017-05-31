@@ -1,0 +1,44 @@
+{"thing":[
+	{ 
+		"name" : "DigitalAssistant",
+		"position" : "Static",
+        "encryption" : "No",
+        "data" : "Sensitive",
+        "effect" : "Audio",
+		"interfaces" : [
+		{
+			"interface" : "Bluetooth",
+			"conntype" : "Wireless",
+			"auth" : "No",
+			"direction" : "TXRX",
+			"protocol" : "Bluetooth",
+            "crypto" : "Yes"
+		},
+		{
+			"interface" : "Speaker",
+			"conntype" : "Wireless",
+			"auth" : "No",
+			"direction" : "TX",
+			"protocol" : "Sound",
+            "crypto" : "No"
+		},
+        {
+            "interface" : "Microphone",
+            "conntype" : "Wireless",
+            "auth" : "No",
+            "direction" : "RX",
+            "protocol" : "Sound",
+            "crypto" : "No"
+        },
+        {
+            "interface" : "WiFi",
+            "conntype" : "Wireless",
+            "auth" : "No",
+            "direction" : "TXRX",
+            "protocol" : "Sound",
+            "crypto" : "No"
+        }
+		]
+	}
+	]
+}

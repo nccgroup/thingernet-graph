@@ -1,0 +1,28 @@
+{"thing":[
+	{ 
+		"name" : "HomeRouter",
+		"position" : "Static",
+        "encryption" : "No",
+        "data" : "Personal",
+        "effect" : "None",
+		"interfaces" : [
+		{
+			"interface" : "WiFi",
+			"conntype" : "Wireless",
+			"auth" : "Configurable",
+			"direction" : "TXRX",
+			"protocol" : "802.11",
+            "crypto" : "No"
+		},
+		{
+			"interface" : "Ethernet",
+			"conntype" : "Wired",
+			"auth" : "No",
+			"direction" : "TXRX",
+			"protocol" : "TCP-IP",
+            "crypto" : "No"
+		}
+		]
+	}
+	]
+}

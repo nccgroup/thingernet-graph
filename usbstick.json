@@ -1,0 +1,20 @@
+{"thing":[
+	{ 
+		"name" : "USBStick",
+		"position" : "Mobile",
+        "encryption" : "No",
+        "data" : "Mixed",
+        "effect" : "None",
+		"interfaces" : [
+		{
+			"interface" : "USB",
+			"conntype" : "Wired",
+			"auth" : "No",
+			"direction" : "TXRX",
+			"protocol" : "USB",
+            "crypto" : "No"
+		}
+		]
+	}
+	]
+}

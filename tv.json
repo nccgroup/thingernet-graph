@@ -1,0 +1,60 @@
+{"thing":[
+	{ 
+		"name" : "TV",
+		"position" : "Static",
+        "encryption" : "No",
+        "data" : "Sensitive",
+        "effect" : "AV",
+		"interfaces" : [
+		{
+			"interface" : "Bluetooth",
+			"conntype" : "Wireless",
+			"auth" : "Configurable",
+			"direction" : "TXRX",
+			"protocol" : "Bluetooth",
+            "crypto" : "Yes"
+		},
+		{
+			"interface" : "Speaker",
+			"conntype" : "Wireless",
+			"auth" : "No",
+			"direction" : "TX",
+			"protocol" : "Sound",
+            "crypto" : "No"
+		},
+        {
+            "interface" : "Microphone",
+            "conntype" : "Wireless",
+            "auth" : "No",
+            "direction" : "RX",
+            "protocol" : "Sound",
+            "crypto" : "No"
+        },
+        {
+            "interface" : "AudioJack",
+            "conntype" : "Wired",
+            "auth" : "No",
+            "direction" : "TXRX",
+            "protocol" : "Digital",
+            "crypto" : "No"
+        },
+        {
+            "interface" : "WiFi",
+            "conntype" : "Wireless",
+            "auth" : "Configurable",
+            "direction" : "TXRX",
+            "protocol" : "802.11",
+            "crypto" : "No"
+        },
+        {
+            "interface" : "USB",
+            "conntype" : "Wired",
+            "auth" : "No",
+            "direction" : "TXRX",
+            "protocol" : "USB",
+            "crypto" : "No"
+        }
+		]
+	}
+	]
+}

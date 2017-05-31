@@ -1,0 +1,28 @@
+{"thing":[
+	{ 
+		"name" : "Person",
+		"position" : "Mobile",
+        "encryption" : "Yes",
+        "data" : "Mixed",
+        "effect" : "AV",
+		"interfaces" : [
+		{
+			"interface" : "Speaker",
+			"conntype" : "Wireless",
+			"auth" : "No",
+			"direction" : "TX",
+			"protocol" : "Sound",
+            "crypto" : "No"
+		},
+		{
+			"interface" : "Microphone",
+			"conntype" : "Wireless",
+			"auth" : "No",
+			"direction" : "RX",
+			"protocol" : "Sound",
+            "crypto" : "No"
+		}
+		]
+	}
+	]
+}
